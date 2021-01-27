@@ -12,6 +12,9 @@ Made as a practice for Active Record in rails.
 - Windows subsystem Linux (Ubuntu 20.04.1 LTS)
 - heroku/7.47.11 linux-x64 node-v12.16.2
 
+## Live demo
+[Click here!](https://floating-harbor-94998.herokuapp.com/)
+
 ### Install
 
 Install Ruby and Rails on your local machine

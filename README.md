@@ -17,7 +17,7 @@ Made as a practice for Active Record in rails.
 
 ### Install
 
-Install Ruby and Rails on your local machine
+Install Ruby and Rails on your local machine.
 
 ### Setup
 

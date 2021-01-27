@@ -1,7 +1,8 @@
 <%= form_with model: [ @post, @post.comments.build ] do |form| %>
   <p>
     <%= form.label :user_id %><br>
-    <%= form.text_field :user_id %>
+    <!--<%= form.text_field :user_id %>-->
+    <%= form.select(:user_id, options_for_select(@users.map { |user| [user.name, user.id] }, @post.user_id)) %>
   </p>
   <p>
     <%= form.label :comment %><br>

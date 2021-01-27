@@ -17,10 +17,10 @@
 
   <div>
   <%= form.label :user_id %><br>
-  <%= form.text_field :user_id %>
+  <%= form.select(:user_id, options_for_select(@users.map { |user| [user.name, user.id] }, @post.user_id)) %>
   <% @post.errors.full_messages_for(:user_id).each do |message| %>
-        <div><%= message %></div>
-    <% end %>
+    <div><%= message %></div>
+  <% end %>
   </div>
 
   <div>

@@ -1,5 +1,5 @@
 <h1><%= @post.title %></h1>
-
+<p>By: <%= @author.name %></p>
 <p><%= @post.text %> </p>
 
 <ul>
@@ -14,3 +14,5 @@
 
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
+
+<p><%= link_to "Back", root_path(@post) %></p>

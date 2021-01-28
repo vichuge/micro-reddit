@@ -23,7 +23,7 @@ Install Ruby and Rails on your local machine.
 
 Open your terminal and go to the directory where you want to clone the repo.
 
-Clone the repository to your local machine. Type $ git clone `https://github.com/vichuge/micro-reddit.git`
+Clone the repository to your local machine. Type $ git clone `https://github.com/vichuge/micro-reddit.git`.
 
 Go to the Micro-reddit directory. Type $ cd micro-reddit
 
